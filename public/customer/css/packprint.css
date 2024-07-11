@@ -1,0 +1,271 @@
+body:has(.bg-green) {
+    background-color: green;
+}
+
+body:has(.bg-gray) {
+    background-color: #c0c0c0;
+}
+
+body:has(.bg-gray1) {
+    background-color: #99ccff;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.btn_first {
+    width: 100%;
+    border: none;
+    box-shadow: 2px 3px 1px #838383;
+    min-height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.condition {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.selected {
+    background-color: aqua;
+}
+
+.select_area {
+    border: 1px solid;
+    width: 706px;
+    height: 200px;
+    background-color: white;
+}
+
+.text-light1 {
+    color: #000 !important;
+}
+.lable-span {
+    display: flex;
+    align-items: center;
+    width: 11%;
+}
+
+.title1 {
+    height: 45px;
+    padding: 2px;
+    border-bottom: 1px solid;
+    display: flex;
+}
+button {
+    border: none;
+    box-shadow: 2px 3px 1px #838383;
+}
+
+button:hover,
+.btn_first:hover {
+    opacity: 0.8;
+}
+
+hr {
+    border-color: #fff;
+    border-width: 4px;
+    opacity: 1;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.btn_help {
+    background-color: #fff;
+    box-shadow: 2px 3px 1px #838383;
+    border-radius: 0;
+    color: #333399;
+}
+
+.btn_help:hover {
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+.disabled {
+    background-color: #fff!important;
+}
+
+.main {
+    padding: 20px 20px 0px 20px;
+    max-width: 800px;
+}
+
+.button_action {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.button_action button {
+    padding: 10px 20px;
+}
+
+.header p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.main .header p {
+    color: #fff;
+}
+
+.item {
+    display: flex;
+}
+
+.item .label {
+    width: 165px;
+}
+
+.item .desc {
+    width: calc(100% - 165px);
+    padding-left: 30px;
+}
+
+.bg-yellow-white {
+    background-color: rgb(255, 254, 208);
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-gray-white {
+    background-color: rgb(181, 181, 181);
+}
+
+.bg-gray-light {
+    background-color: rgb(235, 235, 235);
+}
+
+.label {
+    text-align: center;
+}
+
+.text-danger {
+    color: red!important;
+}
+
+.text-yellow {
+    color: yellow!important;
+}
+
+.font-italic {
+    font-style: italic!important;
+}
+
+.font-size-15px {
+    font-size: 15px!important;
+}
+
+.pl-20px {
+    padding-left: 20px;
+}
+
+.custom-form-group {
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+}
+
+.custom-form-group>label {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    transform: translateY(-50%);
+    padding: 0 15px;
+    background-color: rgb(240, 240, 240);
+}
+
+.main .panel_price .item {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.main .panel_price .item fieldset {
+    width: 100%;
+}
+
+.main .panel_price fieldset {
+    border: 1px solid #838383;
+}
+
+.main .panel_price fieldset legend {
+    float: none !important;
+    width: auto !important;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 0;
+}
+
+.main .panel_price .item:nth-child(4) {
+    display: flex;
+}
+
+.main .panel_price .wrap-form {
+    padding: 5px 10px 10px;
+}
+
+.main .panel_price {
+    background-color: #dddddd;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.button-form {
+    min-width: 50px;
+    color: #000000;
+    border: black 0px solid;
+    border-radius: 0px;
+    box-shadow: 2px 3px 1px #838383;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.data_list {
+    /* width: 594px; */
+    /* height: 84px; */
+    border: 1px solid #767676;
+    margin-top: -36px;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.data_list select[multiple]{
+    width: 594px;
+    height: 84px;
+    outline: none;
+    border: none;
+}
+
+.data_item {
+    padding: 2px 0 0 10px;
+    height: 25px;
+    width: 100%;
+}
+
+#loading_form3 {
+    height: 84px;
+    width: 594px;
+}

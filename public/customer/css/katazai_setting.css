@@ -1,0 +1,159 @@
+body {
+    background-color: #FFF;
+}
+
+.main {
+    width: 1000px;
+    padding: 20px;
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+
+    tr {
+        height: 35px;
+    }
+}
+
+.p0 {
+    padding: 0;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.action {
+    padding: 0px 14px;
+}
+
+.readonly {
+    border: none;
+}
+
+button {
+    width: 70px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    border: black 0px solid;
+    border-radius: 0px;
+    box-shadow: 2px 3px 1px #838383;
+    background-color: #f0f0f0;
+    padding: 3px 6px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+span {
+    margin-left: 5px;
+}
+
+.email {
+    width: 100%;
+    height: 31px;
+}
+
+.remarks {
+    width: 100%;
+    height: 101px;
+}
+
+thead {
+    th {
+        text-align: center;
+        background-color: aqua;
+    }
+
+    .th_1 {
+        width: 250px;
+    }
+    .th_2 {
+        width: 350px;
+    }
+    .th_3 {
+        width: 250px;
+    }
+    .th_4 {
+        width: 100px;
+    }
+}
+
+.button_action {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.create {
+    display: flex;
+    justify-content: end;
+    padding: 12px;
+
+    button {
+        width: 100px !important;
+    }
+}
+
+.create-modal-body {
+    width: 698px;
+    padding: 20px;
+}
+
+.create-modal-content {
+    width: 700px;
+    color: #000;
+    background-color: #dddddd;
+    border: 1px solid #6e6e6e;
+    border-radius: 0px;
+}
+
+.mdl_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    #btn_create_submit {
+        margin-right: 10px;
+    }
+}
+
+.create_row {
+    display: flex;
+    margin-top: 20px;
+
+    .mr{
+        margin-right: 12px;
+    }
+
+    .txt_col {
+        height: 35px;
+        width: 100px;
+        text-align: right;
+        padding: 8px 8px 0px 0px;
+    }
+
+    .input_1 {
+        height: 35px;
+        width: 223px;
+    }
+
+    .input_2 {
+        height: 35px;
+        width: 558px;
+    }
+}
+
+#mdal_create {
+    --bs-modal-width: 700px !important;
+}

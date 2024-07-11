@@ -1,0 +1,321 @@
+body {
+    overflow-x: hidden;
+}
+
+.haifusaki {
+    padding: 20px;
+}
+
+.haifusaki .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.haifusaki .content table thead tr th:first-child {
+    width: 250px !important;
+    text-align: left;
+}
+
+.haifusaki .content table thead tr th:nth-child(2) {
+    width: 145px !important;
+    text-align: left;
+}
+
+.haifusaki .content table thead tr th:nth-child(3) {
+    width: 50px !important;
+}
+
+.haifusaki .content table thead tr th:nth-child(3) {
+    display: none;
+}
+
+.haifusaki .content table thead tr th:last-child {
+    width: auto !important;
+    text-align: left;
+}
+
+.haifusaki .content table {
+    border-color: black;
+}
+
+.haifusaki .content table thead tr th {
+    width: 34px !important;
+    position: relative;
+    min-height: 248px;
+    text-align: center;
+    background-color: #cff;
+    border-color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.haifusaki .content table tbody tr td:nth-child(1) {
+    background: #dfdfdf;
+}
+
+.haifusaki .content table tbody tr td:nth-child(2) {
+    background: #dfdfdf;
+}
+
+.haifusaki .content table tbody tr td:nth-child(3) {
+    display: none;
+    text-align: center;
+}
+
+.haifusaki .form-check-input {
+    border: 1px solid #999999;
+}
+
+.haifusaki .content .box_action {
+    margin-top: 15px;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 1;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.haifusaki .content .box_action button {
+    border: 1px solid #d8d8d8;
+    box-shadow: 2px 3px 1px #838383;
+    background-color: #fff;
+    min-width: 100px;
+    padding: 8px 10px;
+}
+
+.haifusaki .content .box_action button:hover {
+    opacity: 0.8;
+    background-color: #dfdfdf;
+}
+
+/* .haifusaki .content .box_action button.edit {
+    transform: translateX(388px);
+}
+
+.haifusaki .content .box_action button.edit.reset {
+    transform: translateX(0px);
+}
+
+.haifusaki .content .box_action button:nth-child(2),
+.haifusaki .content .box_action button:nth-child(3),
+.haifusaki .content .box_action button:last-child {
+    visibility: hidden;
+    transform: translateX(100px);
+}
+
+.haifusaki .content .box_action button:nth-child(2).show,
+.haifusaki .content .box_action button:nth-child(3).show,
+.haifusaki .content .box_action button:last-child.show {
+    visibility: visible;
+    transform: translateX(0px);
+}
+
+.haifusaki .content .box_action button:first-child {
+    transition: all 0.2s ease-in-out;
+}
+
+.haifusaki .content .box_action button:nth-child(2) {
+    transition: all 0.4s ease-in-out;
+}
+
+.haifusaki .content .box_action button:nth-child(3) {
+    transition: all 0.6s ease-in-out;
+}
+
+.haifusaki .content .box_action button:last-child {
+    transition: all 0.8s ease-in-out;
+}
+*/
+.haifusaki .content .box_action button:first-child:disabled,
+.haifusaki .content .box_action button.add:disabled,
+.haifusaki .content .box_action button.delete:disabled,
+.haifusaki .content .box_action button.save:disabled {
+    background-color: #cccccc;
+}
+
+.bg_disable {
+    background: #dddddd !important;
+}
+
+table thead {
+    position: sticky;
+    top: 50px;
+    background-color: #fff;
+    z-index: 1;
+    border: 1px solid #0d6efd;
+    box-shadow: 0px 0px 5px -3px #666;
+}
+
+table {
+    /* border-collapse: collapse; */
+    /* width: 100%; */
+}
+
+th,
+td {
+    padding: 8px 16px;
+    /* border: 1px solid #ccc; */
+}
+
+th {
+    background: #eee;
+}
+
+#mdal_add .form_search select {
+    width: 100%;
+    height: 200px;
+}
+
+#mdal_add .form_search .item {
+    position: relative;
+}
+
+#mdal_add .form_search .item #loading_search {
+    display: flex;
+    max-width: 280px;
+    height: 27px;
+    margin-top: 21px;
+    display: none;
+}
+
+#mdal_add .form_search select:focus {
+    outline: none;
+}
+
+#mdal_add .form_search select::-webkit-scrollbar {
+    width: 10px;
+    height: 14px;
+}
+
+#mdal_add .form_search select::-webkit-scrollbar-track {
+    /* background-color: #b8b8b8; */
+}
+
+#mdal_add .form_search select::-webkit-scrollbar-thumb {
+    background-color: #b8b8b8;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 8px;
+}
+
+#mdal_add .form_search .button_action {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+#mdal_add .form_search button {
+    border: 1px solid #d8d8d8;
+    box-shadow: 1px 1px 1px #838383;
+    background-color: #fff;
+}
+
+#mdal_add .form_search button:hover {
+    opacity: 0.8;
+    background-color: #dfdfdf;
+}
+
+.lds-ellipsis {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 39px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(201 201 201 / 50%);
+    z-index: 5;
+}
+
+.lds-ellipsis div {
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #9b9b9b;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+    display: inline-flex;
+}
+
+.lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(24px, 0);
+    }
+}
+
+.modal_confirm .button_action {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.modal_confirm .modal-body button {
+    min-width: 110px;
+    border: none;
+    box-shadow: 2px 3px 1px #838383;
+    padding: 10px 20px;
+}
+
+.modal_confirm .modal-body button:hover {
+    opacity: 0.8;
+    background-color: #dfdfdf;
+}
+
+table tr td textarea {
+    outline: none;
+}
+
+table tr td textarea:focus {
+    border-color: #0d6efd;
+}
+
+table thead th {
+    vertical-align: top;
+}

@@ -1,0 +1,195 @@
+body {
+    background-color: #008000;
+}
+
+main {
+    width: 762px !important;
+}
+
+hr {
+    width: 700px !important;
+}
+
+.span_2 {
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.inventory_info_container {
+    width: 800px;
+    height: 418px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 20px;
+    color: #000;
+    background-color: #dddddd;
+    border: 1px solid #6e6e6e;
+    margin-top: 20px;
+
+    .tab-content {
+        .tab-pane {
+            box-shadow: 2px 2px 1px #838383;
+            position: relative;
+            background-color: #dddddd;
+            border-top: 1px solid #fff;
+            border-left: 1px solid #fff;
+            padding: 15px;
+        }
+
+        .radio_grp {
+            height: 105px;
+
+            .radio_row {
+                height: 35px;
+                padding: 3px 20px;
+                display: flex;
+
+                .w_span {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+
+    nav.tab .nav-tabs button {
+        padding: 9px 10px;
+        margin: 0;
+        line-height: 10px;
+        background: none;
+        border-top: 1px solid #fff;
+        border-left: 1px solid #fff;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        box-shadow: inset -2px 0px 0px #838383;
+        color: #000;
+    }
+
+
+    nav.tab .nav-tabs {
+        border-bottom: 0;
+        display: flex;
+    }
+
+    nav.tab .nav-tabs button.active {
+        border: 0;
+        border-top: 1px solid #fff;
+        border-left: 1px solid #fff;
+        z-index: 2;
+        margin-bottom: -1px;
+        position: relative;
+        background: #ddd;
+    }
+
+    nav.tab .nav-tabs button:has(+ button.active) {
+        box-shadow: none;
+    }
+
+    fieldset {
+        border: 1px solid #838383;
+        width: 100%;
+        padding: 5px 15px;
+        margin-top: 15px;
+
+        legend {
+            float: none !important;
+            width: auto !important;
+            font-size: 14px;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-bottom: 0;
+        }
+
+        .dropbox_drp {
+            .drop_row {
+                height: 35px;
+                margin-bottom: 10px;
+                display: flex;
+
+                .span {
+                    padding-top: 7px;
+                    padding-right: 10px;
+                    width: 90px;
+                    display: flex;
+                    justify-content: end;
+                }
+
+                .ip_1 {
+                    width: 155px;
+                }
+
+                .ip_2 {
+                    width: 214px;
+                }
+            }
+        }
+    }
+
+    .btn_grp {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+
+        .btn_out {
+            width: 200px;
+            margin-right: 15px;
+        }
+
+        .btn_reset {
+            width: 200px;
+        }
+    }
+}
+
+.w1 {
+    height: 60px;
+}
+
+.w2 {
+    width: 300px;
+}
+
+.w3 {
+    width: 70px;
+}
+
+.pd7 {
+    padding: 7px;
+}
+
+.ml1 {
+    margin-left: 330px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.notice-modal-body {
+    width: 498px;
+    padding: 20px;
+}
+
+.notice-modal-content {
+    width: 500px;
+    color: #000;
+    background-color: #dddddd;
+    border: 1px solid #6e6e6e;
+    border-radius: 0px;
+}
+
+.confirm_button_action {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    .btn_close {
+        margin-left: 10px;
+    }
+
+    button {
+        width: 110px;
+    }
+}

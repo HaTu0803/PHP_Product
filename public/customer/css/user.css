@@ -1,0 +1,245 @@
+.user {
+    position: relative;
+}
+
+.user form {
+    position: relative;
+    width: 100%;
+}
+
+#seachControlPanel {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    padding-top: 15px;
+    background-color: #fff;
+    min-height: 115px;
+}
+
+table thead {
+    position: sticky;
+    top: 110px;
+    background-color: #fff;
+    z-index: 1;
+    border: 1px solid #0d6efd;
+    box-shadow: 0px 0px 5px -3px #666;
+}
+
+.user .search .search_top {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.user .search .search_top .item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.user .search .search_top .item:nth-child(4) {
+    max-width: 134px;
+}
+
+.user .search .search_top .item label[for="user_deleted"] {
+    max-width: 100px;
+}
+
+.user .search .search_top .item label {
+    max-width: 65px;
+    width: 100%;
+    text-align: right;
+}
+
+.user .search .search_top .item select {
+    width: 100%;
+    height: 32px;
+}
+
+.user .search .search_top .item .btn_search {
+    border: 1px solid #d8d8d8;
+    box-shadow: 2px 3px 1px #838383;
+    background-color: #fff;
+    min-width: 100px;
+    padding: 5px 10px;
+}
+
+.user .search .search_top .item .btn_search:hover {
+    opacity: 0.8;
+    background-color: #dfdfdf;
+}
+
+.user .search .search_bottom {
+    display: flex;
+    padding-left: 15px;
+}
+
+.user .search .search_bottom .item {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.user .search .search_bottom .item .btn_delete,
+.user .search .search_bottom .item .btn_download,
+.user .search .search_bottom .item .btn_upload {
+    border: 1px solid #d8d8d8;
+    box-shadow: 2px 3px 1px #cccccc;
+    background-color: #fff;
+    min-width: 100px;
+    padding: 5px 10px;
+}
+
+.user .search .search_bottom .item .btn_delete {
+    border: 1px solid #dc3545;
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.user .search .search_bottom .item .btn_download,
+.user .search .search_bottom .item .btn_upload {
+    border: 1px solid #0d6efd;
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.user .search .search_bottom .item .btn_delete:hover,
+.user .search .search_bottom .item .btn_download:hover,
+.user .search .search_bottom .item .btn_upload:hover {
+    opacity: 0.8;
+    background-color: #dfdfdf;
+    color: #000;
+}
+
+
+#modal_edit .button_action,
+#modal_add .button_action {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+#modal_edit .button_action button,
+#modal_add .button_action button {
+    min-width: 110px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 2px 3px 1px #838383;
+}
+
+#modal_edit .button_action button:hover,
+#modal_add .button_action button:hover {
+    opacity: 0.8;
+    background-color: #dfdfdf;
+}
+
+#modal_edit .form_edit,
+#modal_add .form_edit {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+#modal_edit .form_edit .list_item,
+#modal_add .form_edit .list_item {
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#modal_edit .form_edit .list_item .item,
+#modal_add .form_edit .list_item .item {
+    width: 100%;
+    display: flex;
+}
+
+#modal_edit .form_edit .list_item .item label,
+#modal_add .form_edit .list_item .item label {
+    min-width: 100px;
+}
+
+#modal_edit .form_edit .list_item .item div,
+#modal_add .form_edit .list_item .item div {
+    width: 100%;
+}
+
+#modal_edit .form_edit .list_item .item input,
+#modal_add .form_edit .list_item .item input {
+    width: 100%;
+    height: 30px;
+}
+
+#modal_edit .form_edit .list_item .item select,
+#modal_add .form_edit .list_item .item select {
+    width: 100%;
+    height: 30px;
+}
+
+#modal_delete .button_action {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#modal_delete .button_action button,
+#modal_add .button_action button {
+    min-width: 110px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 2px 3px 1px #838383;
+}
+
+#modal_delete .button_action button:hover,
+#modal_add .button_action button:hover {
+    opacity: 0.8;
+    background-color: #dfdfdf;
+}
+
+.btn_add {
+    border: 1px solid #d8d8d8;
+    box-shadow: 2px 3px 1px #838383;
+    background-color: #fff;
+    min-width: 100px;
+    padding: 5px 10px;
+}
+
+.btn_add:hover {
+    opacity: 0.8;
+    background-color: #dfdfdf;
+}
+
+.select2-results__options li:first-child {
+    height: 26px;
+}
+
+.paginate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+#start_upload {
+    min-width: 110px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 2px 3px 1px #838383;
+}
+
+#start_upload:hover {
+    opacity: 0.8;
+    background-color: #dfdfdf;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    -webkit-text-fill-color: #000 !important;
+}
+
+.error-swal .swal2-html-container
+{
+    height:200px;
+}
